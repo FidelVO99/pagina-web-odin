@@ -75,8 +75,30 @@ body{
     justify-content: center;
     align-items: center;
 }
-.imagen-seccion1 img{
+img{
     width: 100%;
 }
+.seccion2{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.contenido2{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenido2 h2 {
+    margin-bottom: 30px;
+}
+.seccion2-imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
 
 
