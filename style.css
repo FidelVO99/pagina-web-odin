@@ -82,6 +82,7 @@ img{
     display: flex;
     justify-content: center;
     margin: 30px 0;
+    padding: 40px 0;
 }
 .contenido2{
     width: 800px;
@@ -99,6 +100,60 @@ img{
     gap: 30px;
     text-align: center;
 }
-
+.seccion3{
+    background-color: #b9bbc0;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+.contenido3 p{
+    width: 800px;
+    font-size: 26px;
+    font-style: italic;
+}
+.contenido .autor{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: end;
+}
+.seccion4{
+    display: flex;
+    justify-content: center;
+}
+.contenido4{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pie{
+    width: 100%;
+    background-color: #3882f6;
+    padding: 25px 50px;
+    display: flex;
+    color: white;
+    border-radius: 5px;
+}
+.pie div{
+    flex: 1;
+}
+.pie button{
+    border: 3px solid white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+}
+.pie div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.texto-pie{
+    display: flex;
+    flex-direction: column;
+}
 
 
