@@ -9,7 +9,9 @@ body{
     justify-content: center;
     font-family: sans-serif;
 }
-
+section{
+    flex: 1;
+}
 .contenido{
     width: 100%;
     display: flex;
@@ -22,11 +24,13 @@ body{
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
+    justify-content: center;
+    margin-top: 10px;
 }
 .seccion1{
     background-color: #1f2937;
     color: white;
-    padding: 15px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -68,6 +72,7 @@ body{
     background-color: #3882f6;
     color: white;
     font-weight: 900;
+    cursor: pointer;
 }
 .imagen-seccion1{
     flex: 1;
@@ -77,6 +82,7 @@ body{
 }
 img{
     width: 100%;
+    border-radius: 15px ;
 }
 .seccion2{
     display: flex;
@@ -106,14 +112,20 @@ img{
     justify-content: center;
     padding: 60px 0;
 }
+.contenido3{
+    display: flex;
+}
 .contenido3 p{
     width: 800px;
     font-size: 26px;
     font-style: italic;
 }
-.contenido .autor{
-    font-size: 25px;
-    font-weight: bold;
+.contenido3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contenido3 .autor{
     text-align: end;
 }
 .seccion4{
@@ -139,12 +151,14 @@ img{
 .pie div{
     flex: 1;
 }
-.pie button{
+.pie div button{
     border: 3px solid white;
     background-color: #3882f6;
     border-radius: 5px;
-    padding: 15px;
+    padding: 15px 30px;
     color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 .pie div:last-child{
     display: flex;
